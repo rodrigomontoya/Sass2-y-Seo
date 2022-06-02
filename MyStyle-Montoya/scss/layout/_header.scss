@@ -1,0 +1,38 @@
+/*---Variables---*/
+$rutaImagenFondoLogo:"../imagenes/fondoLogo1.jpg"; /*imagen de fondo de logo */
+.nav-bar{
+    background-image:url(../imagenes/fondoLogo1.jpg); 
+    background-repeat:no-repeat;
+    background-position-y:38%; 
+    width:100vw;
+    border: solid 5px;
+    border-color: rgb(15, 15, 15);
+    text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:rgb(241, 240, 233);
+}
+.navbar-nav {
+    a:hover{
+  border:solid rgb(109, 10, 10);
+  border-radius:5px;
+  transition:1.5s; 
+  transform: scale(1.2);
+  }
+}
+
+.logo{
+    border:solid 7px;
+    border-radius:5px;
+    color:rgb(29, 27, 27); 
+    background: url(rutaImagenFondoLogo);
+    background-size: 1500px;
+    background-position-y:-290px;
+    background-repeat:no-repeat;  
+    width:13vw; 
+    &:hover{
+        transform:rotate(360deg);
+        transition:2s;
+     }
+}
+
+  
